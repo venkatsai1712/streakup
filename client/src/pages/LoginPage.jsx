@@ -5,7 +5,11 @@ function LoginPage() {
         <h3>Streak Up</h3>
         <h1>Welcome Back!</h1>
         <p>Log-in to continuing your learning streaks</p>
-        <button type="button" className="btn btn-primary" style={{ width: "200px" }}>
+        <button
+          type="button"
+          className="btn btn-primary"
+          style={{ width: "200px" }}
+        >
           Login with Google
         </button>
         <div className="mt-4">
