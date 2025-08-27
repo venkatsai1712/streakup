@@ -9,7 +9,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<DashBoard />} />
+        <Route path="/" element={<LoginPage />} />
         <Route path="/SetUpGoal" element={<SetUpGoal />} />
         <Route path="/CheckIn" element={<CheckIn />} />
       </Routes>
