@@ -1,5 +1,6 @@
 import GoogleGemini from "../apis/GoogleGemini";
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 function SetUpGoal() {
   const [isGoalResponseLoaded, GoalResponseLoaded] = useState(false);
@@ -129,13 +130,9 @@ function SetUpGoal() {
           </tbody>
         </table>
       ) : null}
-      <button
-        type="button"
-        className="btn btn-primary m-2"
-        onClick={getDayTasksResponse}
-      >
+      <Link to="/" className="btn btn-primary m-4">
         Start Streak
-      </button>
+      </Link>
     </div>
   );
 }

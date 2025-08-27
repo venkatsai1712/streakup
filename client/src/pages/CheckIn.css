@@ -1,0 +1,21 @@
+.task-section h6 {
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.time-section .input-group-text {
+  background: #f1f1f1;
+  font-weight: 500;
+}
+
+.time-section{
+    box-shadow:0px 0px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    padding: 10px 0px 20px 0px;
+}
+
+.task-completion{
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.15);
+    border-radius: 10px;
+    padding: 10px 10px 20px 10px ;
+}
